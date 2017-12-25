@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UIExt_Example' do
+  pod 'UIExt', :path => '../'
+
+  target 'UIExt_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
