@@ -1,5 +1,5 @@
 PODS:
-  - UIExt (0.1.0)
+  - UIExt (1.0.0)
 
 DEPENDENCIES:
   - UIExt (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  UIExt: d9af879c07d57c619a641385064834c964b27cb1
+  UIExt: 9c78567228824438677daaaae6ea31c8ce3cdb79
 
 PODFILE CHECKSUM: 59d2281a0fc9fbb41cfe6ff4ffc1f8b9845ae93c
 
