@@ -23,5 +23,5 @@ open class ExtTableViewController: ExtViewController, ILifeTableViewController {
     setupReady()
   }
   
-  open func setupTable () {}  
+  open func setupTable () { }
 }

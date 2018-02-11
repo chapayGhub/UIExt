@@ -44,6 +44,7 @@ open class ExtLabel: UILabel {
   
   public convenience init(font: UIFont, color: UIColor = UIColor.black, alignment: NSTextAlignment = .center, numberOfLines: Int = 1) {
     self.init(frame: CGRect.zero)
+    self.useAutoresizingMaskIntoConstraints = false
     self.font = font
     self.textColor = color
     self.textAlignment = alignment

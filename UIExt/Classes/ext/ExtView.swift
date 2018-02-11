@@ -32,20 +32,20 @@ open class ExtView: UIView {
 
   public required init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
-    super.decodeInit()
+    self.decodeInit()
   }
 
   open override func updateConstraints() {
-    super.setupConstraints()
+    self.setupConstraints()
     super.updateConstraints()
   }
 
   open override var cornerRadius: CGFloat { didSet { isRounded = roundedRadious != cornerRadius ? false : true } }
 
   fileprivate func initialization() {
-    super.designInit()
+    designInit()
     #if !TARGET_INTERFACE_BUILDER
-      super.setupActions()
+      setupActions()
     #endif
   }
 
