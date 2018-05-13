@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UIExt'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'swift extensions and helpers for ui classes'
 
   s.description      = <<-DESC
